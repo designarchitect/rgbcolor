@@ -1,0 +1,111 @@
+/* ================================= 
+  Element Styles
+==================================== */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#body {
+/*  width: 100vw;*/
+  background: url('../images/stardust.png');
+  font-family: 'Kalam', 'Helvetica', cursive;
+}
+
+#jumbotron {
+  margin-bottom: 0;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  background: none;
+  color:rgba(288, 288, 288, 0.6);
+}
+
+#h1 {
+  font-size: 47px;
+}
+
+.sub-section {
+/*  background: #dfdfdf;*/
+  width: 100%;
+  padding: 11px;
+  bottom: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.square-group {
+  padding-top: 10px;
+}
+
+.square {
+  width: 29%;
+  height: 29%;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  margin: 1.7%;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 29%;
+  float: left;
+  border-radius: 15%;
+  color: #fff;
+  transition: background 0.6s;
+  -webkit-transition: background 0.6s;
+  -moz-transition: background 0.6s;
+
+}
+
+.wrong-color {
+  background-color: #232323;
+  font-size: 18px;
+
+}
+
+.selected {
+  background-color: rgb(95,75,139) !important;
+}
+
+.animate-text {
+  opacity: 1 !important;
+  transition: opacity 1.6s ease 0s;
+}
+
+#selectedResults {
+  color: RGB(255, 82, 125);
+  font-weight: 800;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#newGame, #easyMode, #hardMode {
+  border: none;
+  background: none;
+  height: 100%;
+  color:rgba(288, 288, 288, 0.6);
+  outline: none;
+  font-size: 18px;
+}
+
+#newGame:hover, #easyMode:hover, #hardMode:hover {
+/*  pantone color of the year 2018 ultra violet*/
+/*  background-color: rgb(95,75,139);*/
+  color: #fff;
+  height: 100%;
+}
+
+
+.results {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1%;
+  border-radius: 4%;
+  width: 15%;
+  color: #fff;
+}
+
+#selectedResults {
+  font-size: 20px;
+}
+
